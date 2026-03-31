@@ -22,10 +22,39 @@
       padding: 30px;
       border-radius: 20px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      text-align: center;
     }
 
     h1 {
       color: #cc0066;
+    }
+
+    .notice {
+      font-size: 1.5em;
+      margin: 40px 0;
+      color: #cc0066;
+      font-weight: bold;
+      animation: bounce 1.5s infinite, pulse 2s infinite;
+    }
+
+    /* Bounce animation */
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    /* Pulse animation */
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.6;
+      }
     }
 
     a {
@@ -43,24 +72,16 @@
 <body>
 
   <div class="content">
-    <h1>Week 5: Binary Trees</h1>
+    <h1>Week 10: Shortest Paths: Bellman-Ford</h1>
 
-    <p><strong>Date:</strong> Feb 16 – Feb 18</p>
+    <p><strong>Date:</strong> Mar 30 – April 1</p>
 
-    <h2>Topics Covered</h2>åç
-    <ul>
-      <li>AVL Trees</li>
-    </ul>
+    <div class="notice">
+      🚧 This page is currently under construction 🚧
+    </div>
 
-    <h2>Resources</h2>
-    <ul>
-      <li><a href="files/Week 5.1.pdf">Week 5.1.pdf</a></li>
-      <li><a href="https://youtu.be/fJT9IM6VrA0">Week 5.1 - Dr.Whylie</a></li>
-      <li><a href="files/Week 5.2.pdf">Week 5.2.pdf</a></li>
-      <li><a href="https://youtu.be/A3HA0DGIw4g">Week 5.2 - Completions Functions</a></li>
-      <li><a href="files/Practice Exam Answer Edition.pdf">Practice Exam Answer Edition.pdf</a></li>
-      <li><a href="files/Practice Exam Print Edition.pdf">Practice Exam Print Edition.pdf</a></li>
-    </ul>
+    <p>Please check back later for notes and resources.</p>
+
     <p><a href="index.html">← Back to Weekly Overview</a></p>
   </div>
 
